@@ -1,0 +1,192 @@
+[2025-12-24 01:04:55.199354]
+from  : <class 'jax.numpy.uint32'>
+to    : <class 'jax.numpy.float32'>
+case  : zero
+input : a=0
+CPU   : 0.0
+TPU   : 0.0
+------------------------------------------------------------
+[2025-12-24 01:04:55.204143]
+from  : <class 'jax.numpy.uint32'>
+to    : <class 'jax.numpy.float32'>
+case  : one
+input : a=1
+CPU   : 1.0
+TPU   : 1.0
+------------------------------------------------------------
+[2025-12-24 01:04:55.208297]
+from  : <class 'jax.numpy.uint32'>
+to    : <class 'jax.numpy.float32'>
+case  : two
+input : a=2
+CPU   : 2.0
+TPU   : 2.0
+------------------------------------------------------------
+[2025-12-24 01:04:55.212964]
+from  : <class 'jax.numpy.uint32'>
+to    : <class 'jax.numpy.float32'>
+case  : fifteen
+input : a=15
+CPU   : 15.0
+TPU   : 15.0
+------------------------------------------------------------
+[2025-12-24 01:04:55.217345]
+from  : <class 'jax.numpy.uint32'>
+to    : <class 'jax.numpy.float32'>
+case  : byte_max
+input : a=255
+CPU   : 255.0
+TPU   : 255.0
+------------------------------------------------------------
+[2025-12-24 01:04:55.221842]
+from  : <class 'jax.numpy.uint32'>
+to    : <class 'jax.numpy.float32'>
+case  : pow2_8
+input : a=256
+CPU   : 256.0
+TPU   : 256.0
+------------------------------------------------------------
+[2025-12-24 01:04:55.226271]
+from  : <class 'jax.numpy.uint32'>
+to    : <class 'jax.numpy.float32'>
+case  : pow2_16
+input : a=65536
+CPU   : 65536.0
+TPU   : 65536.0
+------------------------------------------------------------
+[2025-12-24 01:04:55.230908]
+from  : <class 'jax.numpy.uint32'>
+to    : <class 'jax.numpy.float32'>
+case  : pow2_24_exact
+input : a=16777216
+CPU   : 16777216.0
+TPU   : 16777216.0
+------------------------------------------------------------
+[2025-12-24 01:04:55.235606]
+from  : <class 'jax.numpy.uint32'>
+to    : <class 'jax.numpy.float32'>
+case  : pow2_24_plus_one
+input : a=16777217
+CPU   : 16777216.0
+TPU   : 16777216.0
+------------------------------------------------------------
+[2025-12-24 01:04:55.240378]
+from  : <class 'jax.numpy.uint32'>
+to    : <class 'jax.numpy.float32'>
+case  : pow2_25_minus_one
+input : a=33554431
+CPU   : 33554432.0
+TPU   : 33554432.0
+------------------------------------------------------------
+[2025-12-24 01:04:55.245663]
+from  : <class 'jax.numpy.uint32'>
+to    : <class 'jax.numpy.float32'>
+case  : high_bit_set
+input : a=2147483648
+CPU   : 2147483648.0
+TPU   : 2147483648.0
+------------------------------------------------------------
+[2025-12-24 01:04:55.250712]
+from  : <class 'jax.numpy.uint32'>
+to    : <class 'jax.numpy.float32'>
+case  : uint32_max
+input : a=4294967295
+CPU   : 4294967296.0
+TPU   : 4294967296.0
+------------------------------------------------------------
+[2026-01-04 09:12:35.722914]
+from  : <class 'jax.numpy.uint32'>
+to    : <class 'jax.numpy.float32'>
+case  : zero
+input : a=0
+CPU   : 0.0
+TPU   : 0.0
+------------------------------------------------------------
+[2026-01-04 09:12:35.727950]
+from  : <class 'jax.numpy.uint32'>
+to    : <class 'jax.numpy.float32'>
+case  : one
+input : a=1
+CPU   : 1.0
+TPU   : 1.0
+------------------------------------------------------------
+[2026-01-04 09:12:35.732744]
+from  : <class 'jax.numpy.uint32'>
+to    : <class 'jax.numpy.float32'>
+case  : two
+input : a=2
+CPU   : 2.0
+TPU   : 2.0
+------------------------------------------------------------
+[2026-01-04 09:12:35.737722]
+from  : <class 'jax.numpy.uint32'>
+to    : <class 'jax.numpy.float32'>
+case  : fifteen
+input : a=15
+CPU   : 15.0
+TPU   : 15.0
+------------------------------------------------------------
+[2026-01-04 09:12:35.742567]
+from  : <class 'jax.numpy.uint32'>
+to    : <class 'jax.numpy.float32'>
+case  : byte_max
+input : a=255
+CPU   : 255.0
+TPU   : 255.0
+------------------------------------------------------------
+[2026-01-04 09:12:35.747907]
+from  : <class 'jax.numpy.uint32'>
+to    : <class 'jax.numpy.float32'>
+case  : pow2_8
+input : a=256
+CPU   : 256.0
+TPU   : 256.0
+------------------------------------------------------------
+[2026-01-04 09:12:35.752902]
+from  : <class 'jax.numpy.uint32'>
+to    : <class 'jax.numpy.float32'>
+case  : pow2_16
+input : a=65536
+CPU   : 65536.0
+TPU   : 65536.0
+------------------------------------------------------------
+[2026-01-04 09:12:35.758511]
+from  : <class 'jax.numpy.uint32'>
+to    : <class 'jax.numpy.float32'>
+case  : pow2_24_exact
+input : a=16777216
+CPU   : 16777216.0
+TPU   : 16777216.0
+------------------------------------------------------------
+[2026-01-04 09:12:35.763752]
+from  : <class 'jax.numpy.uint32'>
+to    : <class 'jax.numpy.float32'>
+case  : pow2_24_plus_one
+input : a=16777217
+CPU   : 16777216.0
+TPU   : 16777216.0
+------------------------------------------------------------
+[2026-01-04 09:12:35.769359]
+from  : <class 'jax.numpy.uint32'>
+to    : <class 'jax.numpy.float32'>
+case  : pow2_25_minus_one
+input : a=33554431
+CPU   : 33554432.0
+TPU   : 33554432.0
+------------------------------------------------------------
+[2026-01-04 09:12:35.774776]
+from  : <class 'jax.numpy.uint32'>
+to    : <class 'jax.numpy.float32'>
+case  : high_bit_set
+input : a=2147483648
+CPU   : 2147483648.0
+TPU   : 2147483648.0
+------------------------------------------------------------
+[2026-01-04 09:12:35.780311]
+from  : <class 'jax.numpy.uint32'>
+to    : <class 'jax.numpy.float32'>
+case  : uint32_max
+input : a=4294967295
+CPU   : 4294967296.0
+TPU   : 4294967296.0
+------------------------------------------------------------

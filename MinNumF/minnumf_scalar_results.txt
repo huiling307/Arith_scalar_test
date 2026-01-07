@@ -1,0 +1,84 @@
+[2026-01-06 06:37:57.192426]
+dtype : <class 'jax.numpy.float32'>
+case  : zero_zero
+input : a=0.0, b=0.0
+CPU   : 0.0
+TPU   : 0.0
+------------------------------------------------------------
+[2026-01-06 06:37:57.198158]
+dtype : <class 'jax.numpy.float32'>
+case  : one_two
+input : a=1.0, b=2.0
+CPU   : 1.0
+TPU   : 1.0
+------------------------------------------------------------
+[2026-01-06 06:37:57.203199]
+dtype : <class 'jax.numpy.float32'>
+case  : minus_one_one
+input : a=-1.0, b=1.0
+CPU   : -1.0
+TPU   : -1.0
+------------------------------------------------------------
+[2026-01-06 06:37:57.208798]
+dtype : <class 'jax.numpy.float32'>
+case  : pos_zero_neg_zero
+input : a=0.0, b=-0.0
+CPU   : -0.0
+TPU   : -0.0
+------------------------------------------------------------
+[2026-01-06 06:37:57.214430]
+dtype : <class 'jax.numpy.float32'>
+case  : neg_zero_pos_zero
+input : a=-0.0, b=0.0
+CPU   : -0.0
+TPU   : 0.0
+------------------------------------------------------------
+[2026-01-06 06:37:57.220487]
+dtype : <class 'jax.numpy.float32'>
+case  : pos_inf_one
+input : a=inf, b=1.0
+CPU   : 1.0
+TPU   : 1.0
+------------------------------------------------------------
+[2026-01-06 06:37:57.226316]
+dtype : <class 'jax.numpy.float32'>
+case  : neg_inf_one
+input : a=-inf, b=1.0
+CPU   : -inf
+TPU   : -inf
+------------------------------------------------------------
+[2026-01-06 06:37:57.235534]
+dtype : <class 'jax.numpy.float32'>
+case  : pos_inf_neg_inf
+input : a=inf, b=-inf
+CPU   : -inf
+TPU   : -inf
+------------------------------------------------------------
+[2026-01-06 06:37:57.241773]
+dtype : <class 'jax.numpy.float32'>
+case  : nan_one
+input : a=nan, b=1.0
+CPU   : nan
+TPU   : 1.0
+------------------------------------------------------------
+[2026-01-06 06:37:57.322156]
+dtype : <class 'jax.numpy.float32'>
+case  : one_nan
+input : a=1.0, b=nan
+CPU   : nan
+TPU   : 1.0
+------------------------------------------------------------
+[2026-01-06 06:37:57.341382]
+dtype : <class 'jax.numpy.float32'>
+case  : nan_nan
+input : a=nan, b=nan
+CPU   : nan
+TPU   : nan
+------------------------------------------------------------
+[2026-01-06 06:37:57.348246]
+dtype : <class 'jax.numpy.float32'>
+case  : equal_values
+input : a=3.5, b=3.5
+CPU   : 3.5
+TPU   : 3.5
+------------------------------------------------------------

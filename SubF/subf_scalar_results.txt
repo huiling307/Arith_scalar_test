@@ -1,0 +1,210 @@
+[2025-12-25 09:13:09.185859]
+dtype : <class 'jax.numpy.float32'>
+case  : zero_minus_zero
+input : a=0.0, b=0.0
+CPU   : 0.0
+TPU   : 0.0
+------------------------------------------------------------
+[2025-12-25 09:13:09.189698]
+dtype : <class 'jax.numpy.float32'>
+case  : one_minus_zero
+input : a=1.0, b=0.0
+CPU   : 1.0
+TPU   : 1.0
+------------------------------------------------------------
+[2025-12-25 09:13:09.193811]
+dtype : <class 'jax.numpy.float32'>
+case  : zero_minus_one
+input : a=0.0, b=1.0
+CPU   : -1.0
+TPU   : -1.0
+------------------------------------------------------------
+[2025-12-25 09:13:09.197889]
+dtype : <class 'jax.numpy.float32'>
+case  : five_minus_three
+input : a=5.0, b=3.0
+CPU   : 2.0
+TPU   : 2.0
+------------------------------------------------------------
+[2025-12-25 09:13:09.201962]
+dtype : <class 'jax.numpy.float32'>
+case  : three_minus_five
+input : a=3.0, b=5.0
+CPU   : -2.0
+TPU   : -2.0
+------------------------------------------------------------
+[2025-12-25 09:13:09.206528]
+dtype : <class 'jax.numpy.float32'>
+case  : minus_one_minus_one
+input : a=-1.0, b=1.0
+CPU   : -2.0
+TPU   : -2.0
+------------------------------------------------------------
+[2025-12-25 09:13:09.211287]
+dtype : <class 'jax.numpy.float32'>
+case  : minus_five_minus_minus_three
+input : a=-5.0, b=-3.0
+CPU   : -2.0
+TPU   : -2.0
+------------------------------------------------------------
+[2025-12-25 09:13:09.216405]
+dtype : <class 'jax.numpy.float32'>
+case  : fractional
+input : a=1.5, b=0.5
+CPU   : 1.0
+TPU   : 1.0
+------------------------------------------------------------
+[2025-12-25 09:13:09.221327]
+dtype : <class 'jax.numpy.float32'>
+case  : self_cancel
+input : a=1.0, b=1.0
+CPU   : 0.0
+TPU   : 0.0
+------------------------------------------------------------
+[2025-12-25 09:13:09.255564]
+dtype : <class 'jax.numpy.float32'>
+case  : rounding_sensitive
+input : a=1.0000001192092896, b=1.0
+CPU   : 1.1920928955078125e-07
+TPU   : 1.1920928955078125e-07
+------------------------------------------------------------
+[2025-12-25 09:13:09.261793]
+dtype : <class 'jax.numpy.float32'>
+case  : inf_minus_one
+input : a=inf, b=1.0
+CPU   : inf
+TPU   : inf
+------------------------------------------------------------
+[2025-12-25 09:13:09.333775]
+dtype : <class 'jax.numpy.float32'>
+case  : one_minus_inf
+input : a=1.0, b=inf
+CPU   : -inf
+TPU   : -inf
+------------------------------------------------------------
+[2025-12-25 09:13:09.339908]
+dtype : <class 'jax.numpy.float32'>
+case  : nan_minus_one
+input : a=nan, b=1.0
+CPU   : nan
+TPU   : nan
+------------------------------------------------------------
+[2025-12-25 09:13:09.346044]
+dtype : <class 'jax.numpy.float32'>
+case  : one_minus_nan
+input : a=1.0, b=nan
+CPU   : nan
+TPU   : nan
+------------------------------------------------------------
+[2025-12-25 09:13:09.351861]
+dtype : <class 'jax.numpy.float32'>
+case  : pos_zero_minus_neg_zero
+input : a=0.0, b=-0.0
+CPU   : 0.0
+TPU   : 0.0
+------------------------------------------------------------
+[2026-01-04 09:24:53.441161]
+dtype : <class 'jax.numpy.float32'>
+case  : zero_minus_zero
+input : a=0.0, b=0.0
+CPU   : 0.0
+TPU   : 0.0
+------------------------------------------------------------
+[2026-01-04 09:24:53.446933]
+dtype : <class 'jax.numpy.float32'>
+case  : one_minus_zero
+input : a=1.0, b=0.0
+CPU   : 1.0
+TPU   : 1.0
+------------------------------------------------------------
+[2026-01-04 09:24:53.452985]
+dtype : <class 'jax.numpy.float32'>
+case  : zero_minus_one
+input : a=0.0, b=1.0
+CPU   : -1.0
+TPU   : -1.0
+------------------------------------------------------------
+[2026-01-04 09:24:53.458827]
+dtype : <class 'jax.numpy.float32'>
+case  : five_minus_three
+input : a=5.0, b=3.0
+CPU   : 2.0
+TPU   : 2.0
+------------------------------------------------------------
+[2026-01-04 09:24:53.465002]
+dtype : <class 'jax.numpy.float32'>
+case  : three_minus_five
+input : a=3.0, b=5.0
+CPU   : -2.0
+TPU   : -2.0
+------------------------------------------------------------
+[2026-01-04 09:24:53.471126]
+dtype : <class 'jax.numpy.float32'>
+case  : minus_one_minus_one
+input : a=-1.0, b=1.0
+CPU   : -2.0
+TPU   : -2.0
+------------------------------------------------------------
+[2026-01-04 09:24:53.477202]
+dtype : <class 'jax.numpy.float32'>
+case  : minus_five_minus_minus_three
+input : a=-5.0, b=-3.0
+CPU   : -2.0
+TPU   : -2.0
+------------------------------------------------------------
+[2026-01-04 09:24:53.484209]
+dtype : <class 'jax.numpy.float32'>
+case  : fractional
+input : a=1.5, b=0.5
+CPU   : 1.0
+TPU   : 1.0
+------------------------------------------------------------
+[2026-01-04 09:24:53.490642]
+dtype : <class 'jax.numpy.float32'>
+case  : self_cancel
+input : a=1.0, b=1.0
+CPU   : 0.0
+TPU   : 0.0
+------------------------------------------------------------
+[2026-01-04 09:24:53.883211]
+dtype : <class 'jax.numpy.float32'>
+case  : rounding_sensitive
+input : a=1.0000001192092896, b=1.0
+CPU   : 1.1920928955078125e-07
+TPU   : 1.1920928955078125e-07
+------------------------------------------------------------
+[2026-01-04 09:24:53.890360]
+dtype : <class 'jax.numpy.float32'>
+case  : inf_minus_one
+input : a=inf, b=1.0
+CPU   : inf
+TPU   : inf
+------------------------------------------------------------
+[2026-01-04 09:24:53.970114]
+dtype : <class 'jax.numpy.float32'>
+case  : one_minus_inf
+input : a=1.0, b=inf
+CPU   : -inf
+TPU   : -inf
+------------------------------------------------------------
+[2026-01-04 09:24:53.976742]
+dtype : <class 'jax.numpy.float32'>
+case  : nan_minus_one
+input : a=nan, b=1.0
+CPU   : nan
+TPU   : nan
+------------------------------------------------------------
+[2026-01-04 09:24:53.983187]
+dtype : <class 'jax.numpy.float32'>
+case  : one_minus_nan
+input : a=1.0, b=nan
+CPU   : nan
+TPU   : nan
+------------------------------------------------------------
+[2026-01-04 09:24:53.989496]
+dtype : <class 'jax.numpy.float32'>
+case  : pos_zero_minus_neg_zero
+input : a=0.0, b=-0.0
+CPU   : 0.0
+TPU   : 0.0
+------------------------------------------------------------

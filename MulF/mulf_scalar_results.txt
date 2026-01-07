@@ -1,0 +1,281 @@
+
+[2025-12-29 02:36:01.720367]
+dtype : <class 'jax.numpy.float32'>
+case  : zero_zero
+input : a=0.0, b=0.0
+CPU   : 0.0
+TPU   : 0.0
+------------------------------------------------------------
+[2025-12-29 02:36:01.727887]
+dtype : <class 'jax.numpy.float32'>
+case  : one_two
+input : a=1.0, b=2.0
+CPU   : 2.0
+TPU   : 2.0
+------------------------------------------------------------
+[2025-12-29 02:36:01.734252]
+dtype : <class 'jax.numpy.float32'>
+case  : minus_one_two
+input : a=-1.0, b=2.0
+CPU   : -2.0
+TPU   : -2.0
+------------------------------------------------------------
+[2025-12-29 02:36:01.740418]
+dtype : <class 'jax.numpy.float32'>
+case  : minus_one_minus_two
+input : a=-1.0, b=-2.0
+CPU   : 2.0
+TPU   : 2.0
+------------------------------------------------------------
+[2025-12-29 02:36:01.746254]
+dtype : <class 'jax.numpy.float32'>
+case  : pos_zero_one
+input : a=0.0, b=1.0
+CPU   : 0.0
+TPU   : 0.0
+------------------------------------------------------------
+[2025-12-29 02:36:01.752023]
+dtype : <class 'jax.numpy.float32'>
+case  : neg_zero_one
+input : a=-0.0, b=1.0
+CPU   : -0.0
+TPU   : -0.0
+------------------------------------------------------------
+[2025-12-29 02:36:01.757676]
+dtype : <class 'jax.numpy.float32'>
+case  : pos_zero_minus_one
+input : a=0.0, b=-1.0
+CPU   : -0.0
+TPU   : -0.0
+------------------------------------------------------------
+[2025-12-29 02:36:01.763478]
+dtype : <class 'jax.numpy.float32'>
+case  : neg_zero_minus_one
+input : a=-0.0, b=-1.0
+CPU   : 0.0
+TPU   : 0.0
+------------------------------------------------------------
+[2025-12-29 02:36:01.769166]
+dtype : <class 'jax.numpy.float32'>
+case  : pos_inf_one
+input : a=inf, b=1.0
+CPU   : inf
+TPU   : inf
+------------------------------------------------------------
+[2025-12-29 02:36:01.775147]
+dtype : <class 'jax.numpy.float32'>
+case  : neg_inf_one
+input : a=-inf, b=1.0
+CPU   : -inf
+TPU   : -inf
+------------------------------------------------------------
+[2025-12-29 02:36:01.780633]
+dtype : <class 'jax.numpy.float32'>
+case  : pos_inf_minus_one
+input : a=inf, b=-1.0
+CPU   : -inf
+TPU   : -inf
+------------------------------------------------------------
+[2025-12-29 02:36:01.786363]
+dtype : <class 'jax.numpy.float32'>
+case  : pos_inf_zero
+input : a=inf, b=0.0
+CPU   : nan
+TPU   : nan
+------------------------------------------------------------
+[2025-12-29 02:36:01.792439]
+dtype : <class 'jax.numpy.float32'>
+case  : neg_inf_zero
+input : a=-inf, b=0.0
+CPU   : nan
+TPU   : nan
+------------------------------------------------------------
+[2025-12-29 02:36:01.798959]
+dtype : <class 'jax.numpy.float32'>
+case  : nan_one
+input : a=nan, b=1.0
+CPU   : nan
+TPU   : nan
+------------------------------------------------------------
+[2025-12-29 02:36:01.805072]
+dtype : <class 'jax.numpy.float32'>
+case  : one_nan
+input : a=1.0, b=nan
+CPU   : nan
+TPU   : nan
+------------------------------------------------------------
+[2025-12-29 02:36:01.810593]
+dtype : <class 'jax.numpy.float32'>
+case  : nan_nan
+input : a=nan, b=nan
+CPU   : nan
+TPU   : nan
+------------------------------------------------------------
+[2025-12-29 02:36:01.816253]
+dtype : <class 'jax.numpy.float32'>
+case  : overflow
+input : a=1.0000000200408773e+20, b=1.0000000200408773e+20
+CPU   : inf
+TPU   : inf
+------------------------------------------------------------
+[2025-12-29 02:36:01.821932]
+dtype : <class 'jax.numpy.float32'>
+case  : underflow
+input : a=9.999999682655225e-21, b=9.999999682655225e-21
+CPU   : 9.99994610111476e-41
+TPU   : 0.0
+------------------------------------------------------------
+[2025-12-29 02:36:01.903324]
+dtype : <class 'jax.numpy.float32'>
+case  : mul_one
+input : a=3.5, b=1.0
+CPU   : 3.5
+TPU   : 3.5
+------------------------------------------------------------
+[2025-12-29 02:36:01.906979]
+dtype : <class 'jax.numpy.float32'>
+case  : mul_minus_one
+input : a=3.5, b=-1.0
+CPU   : -3.5
+TPU   : -3.5
+------------------------------------------------------------
+[2026-01-05 02:31:05.821375]
+dtype : <class 'jax.numpy.float32'>
+case  : zero_zero
+input : a=0.0, b=0.0
+CPU   : 0.0
+TPU   : 0.0
+------------------------------------------------------------
+[2026-01-05 02:31:05.826725]
+dtype : <class 'jax.numpy.float32'>
+case  : one_two
+input : a=1.0, b=2.0
+CPU   : 2.0
+TPU   : 2.0
+------------------------------------------------------------
+[2026-01-05 02:31:05.831680]
+dtype : <class 'jax.numpy.float32'>
+case  : minus_one_two
+input : a=-1.0, b=2.0
+CPU   : -2.0
+TPU   : -2.0
+------------------------------------------------------------
+[2026-01-05 02:31:05.837028]
+dtype : <class 'jax.numpy.float32'>
+case  : minus_one_minus_two
+input : a=-1.0, b=-2.0
+CPU   : 2.0
+TPU   : 2.0
+------------------------------------------------------------
+[2026-01-05 02:31:05.842186]
+dtype : <class 'jax.numpy.float32'>
+case  : pos_zero_one
+input : a=0.0, b=1.0
+CPU   : 0.0
+TPU   : 0.0
+------------------------------------------------------------
+[2026-01-05 02:31:05.847307]
+dtype : <class 'jax.numpy.float32'>
+case  : neg_zero_one
+input : a=-0.0, b=1.0
+CPU   : -0.0
+TPU   : -0.0
+------------------------------------------------------------
+[2026-01-05 02:31:05.852726]
+dtype : <class 'jax.numpy.float32'>
+case  : pos_zero_minus_one
+input : a=0.0, b=-1.0
+CPU   : -0.0
+TPU   : -0.0
+------------------------------------------------------------
+[2026-01-05 02:31:05.858421]
+dtype : <class 'jax.numpy.float32'>
+case  : neg_zero_minus_one
+input : a=-0.0, b=-1.0
+CPU   : 0.0
+TPU   : 0.0
+------------------------------------------------------------
+[2026-01-05 02:31:05.864098]
+dtype : <class 'jax.numpy.float32'>
+case  : pos_inf_one
+input : a=inf, b=1.0
+CPU   : inf
+TPU   : inf
+------------------------------------------------------------
+[2026-01-05 02:31:05.869915]
+dtype : <class 'jax.numpy.float32'>
+case  : neg_inf_one
+input : a=-inf, b=1.0
+CPU   : -inf
+TPU   : -inf
+------------------------------------------------------------
+[2026-01-05 02:31:05.875575]
+dtype : <class 'jax.numpy.float32'>
+case  : pos_inf_minus_one
+input : a=inf, b=-1.0
+CPU   : -inf
+TPU   : -inf
+------------------------------------------------------------
+[2026-01-05 02:31:05.881582]
+dtype : <class 'jax.numpy.float32'>
+case  : pos_inf_zero
+input : a=inf, b=0.0
+CPU   : nan
+TPU   : nan
+------------------------------------------------------------
+[2026-01-05 02:31:05.925094]
+dtype : <class 'jax.numpy.float32'>
+case  : neg_inf_zero
+input : a=-inf, b=0.0
+CPU   : nan
+TPU   : nan
+------------------------------------------------------------
+[2026-01-05 02:31:05.931307]
+dtype : <class 'jax.numpy.float32'>
+case  : nan_one
+input : a=nan, b=1.0
+CPU   : nan
+TPU   : nan
+------------------------------------------------------------
+[2026-01-05 02:31:05.937211]
+dtype : <class 'jax.numpy.float32'>
+case  : one_nan
+input : a=1.0, b=nan
+CPU   : nan
+TPU   : nan
+------------------------------------------------------------
+[2026-01-05 02:31:05.943082]
+dtype : <class 'jax.numpy.float32'>
+case  : nan_nan
+input : a=nan, b=nan
+CPU   : nan
+TPU   : nan
+------------------------------------------------------------
+[2026-01-05 02:31:05.948909]
+dtype : <class 'jax.numpy.float32'>
+case  : overflow
+input : a=1.0000000200408773e+20, b=1.0000000200408773e+20
+CPU   : inf
+TPU   : inf
+------------------------------------------------------------
+[2026-01-05 02:31:05.955066]
+dtype : <class 'jax.numpy.float32'>
+case  : underflow
+input : a=9.999999682655225e-21, b=9.999999682655225e-21
+CPU   : 9.99994610111476e-41
+TPU   : 0.0
+------------------------------------------------------------
+[2026-01-05 02:31:06.043509]
+dtype : <class 'jax.numpy.float32'>
+case  : mul_one
+input : a=3.5, b=1.0
+CPU   : 3.5
+TPU   : 3.5
+------------------------------------------------------------
+[2026-01-05 02:31:06.047612]
+dtype : <class 'jax.numpy.float32'>
+case  : mul_minus_one
+input : a=3.5, b=-1.0
+CPU   : -3.5
+TPU   : -3.5
+------------------------------------------------------------

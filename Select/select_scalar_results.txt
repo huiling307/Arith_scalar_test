@@ -1,0 +1,70 @@
+[2026-01-04 09:42:08.673382]
+dtype : <class 'jax.numpy.int32'>
+case  : cond_true_pick_a
+input : cond=1, a=1, b=2
+CPU   : 1
+TPU   : 1
+------------------------------------------------------------
+[2026-01-04 09:42:08.746768]
+dtype : <class 'jax.numpy.int32'>
+case  : cond_false_pick_b
+input : cond=0, a=1, b=2
+CPU   : 2
+TPU   : 2
+------------------------------------------------------------
+[2026-01-04 09:42:08.754495]
+dtype : <class 'jax.numpy.int32'>
+case  : true_pick_zero
+input : cond=1, a=0, b=42
+CPU   : 0
+TPU   : 0
+------------------------------------------------------------
+[2026-01-04 09:42:08.761889]
+dtype : <class 'jax.numpy.int32'>
+case  : false_pick_zero
+input : cond=0, a=42, b=0
+CPU   : 0
+TPU   : 0
+------------------------------------------------------------
+[2026-01-04 09:42:08.768963]
+dtype : <class 'jax.numpy.int32'>
+case  : true_pick_negative
+input : cond=1, a=-1, b=7
+CPU   : -1
+TPU   : -1
+------------------------------------------------------------
+[2026-01-04 09:42:08.775826]
+dtype : <class 'jax.numpy.int32'>
+case  : false_pick_negative
+input : cond=0, a=7, b=-1
+CPU   : -1
+TPU   : -1
+------------------------------------------------------------
+[2026-01-04 09:42:08.782529]
+dtype : <class 'jax.numpy.int32'>
+case  : true_pick_max
+input : cond=1, a=2147483647, b=-1
+CPU   : 2147483647
+TPU   : 2147483647
+------------------------------------------------------------
+[2026-01-04 09:42:08.789432]
+dtype : <class 'jax.numpy.int32'>
+case  : false_pick_min
+input : cond=0, a=-1, b=-2147483648
+CPU   : -2147483648
+TPU   : -2147483648
+------------------------------------------------------------
+[2026-01-04 09:42:08.796351]
+dtype : <class 'jax.numpy.int32'>
+case  : same_values_true
+input : cond=1, a=5, b=5
+CPU   : 5
+TPU   : 5
+------------------------------------------------------------
+[2026-01-04 09:42:08.803085]
+dtype : <class 'jax.numpy.int32'>
+case  : same_values_false
+input : cond=0, a=5, b=5
+CPU   : 5
+TPU   : 5
+------------------------------------------------------------

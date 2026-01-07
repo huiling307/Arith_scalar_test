@@ -1,0 +1,63 @@
+[2025-12-24 01:54:20.479448]
+in_type    : <class 'jax.numpy.float16'>
+scale_type : <class 'jax.numpy.float16'>
+out_type   : <class 'jax.numpy.float32'>
+case       : zero
+input      : x=0.0, scale=1.0
+CPU        : 0.0
+TPU        : 9.349605534225702e-10
+------------------------------------------------------------
+[2025-12-24 01:54:20.489152]
+in_type    : <class 'jax.numpy.float16'>
+scale_type : <class 'jax.numpy.float16'>
+out_type   : <class 'jax.numpy.float32'>
+case       : one_times_one
+input      : x=1.0, scale=1.0
+CPU        : 1.0
+TPU        : 9.349605534225702e-10
+------------------------------------------------------------
+[2025-12-24 01:54:20.552562]
+in_type    : <class 'jax.numpy.float16'>
+scale_type : <class 'jax.numpy.float16'>
+out_type   : <class 'jax.numpy.float32'>
+case       : neg_times_two
+input      : x=-1.5, scale=2.0
+CPU        : -3.0
+TPU        : 9.349605534225702e-10
+------------------------------------------------------------
+[2025-12-24 01:54:20.562080]
+in_type    : <class 'jax.numpy.float16'>
+scale_type : <class 'jax.numpy.float16'>
+out_type   : <class 'jax.numpy.float32'>
+case       : fraction_scale_up
+input      : x=0.25, scale=4.0
+CPU        : 1.0
+TPU        : 9.349605534225702e-10
+------------------------------------------------------------
+[2025-12-24 01:54:20.571336]
+in_type    : <class 'jax.numpy.float16'>
+scale_type : <class 'jax.numpy.float16'>
+out_type   : <class 'jax.numpy.float32'>
+case       : fraction_scale_down
+input      : x=4.0, scale=0.25
+CPU        : 1.0
+TPU        : 9.349605534225702e-10
+------------------------------------------------------------
+[2025-12-24 01:54:20.580561]
+in_type    : <class 'jax.numpy.float16'>
+scale_type : <class 'jax.numpy.float16'>
+out_type   : <class 'jax.numpy.float32'>
+case       : large_scale
+input      : x=10.0, scale=16.0
+CPU        : 160.0
+TPU        : 9.349605534225702e-10
+------------------------------------------------------------
+[2025-12-24 01:54:20.589652]
+in_type    : <class 'jax.numpy.float16'>
+scale_type : <class 'jax.numpy.float16'>
+out_type   : <class 'jax.numpy.float32'>
+case       : small_values
+input      : x=0.0010004043579101562, scale=0.01000213623046875
+CPU        : 1.0006180673372e-05
+TPU        : 9.349605534225702e-10
+------------------------------------------------------------

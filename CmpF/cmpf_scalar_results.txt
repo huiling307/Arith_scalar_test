@@ -1,0 +1,768 @@
+[2025-12-23 09:25:05.772391]
+dtype     : <class 'jax.numpy.float32'>
+predicate : oeq
+case      : equal
+input     : a=1.0, b=1.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:25:09.990276]
+dtype     : <class 'jax.numpy.float32'>
+predicate : one
+case      : equal
+input     : a=1.0, b=1.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:25:14.257028]
+dtype     : <class 'jax.numpy.float32'>
+predicate : olt
+case      : equal
+input     : a=1.0, b=1.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:25:18.490475]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ole
+case      : equal
+input     : a=1.0, b=1.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:25:22.712960]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ogt
+case      : equal
+input     : a=1.0, b=1.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:25:26.937050]
+dtype     : <class 'jax.numpy.float32'>
+predicate : oge
+case      : equal
+input     : a=1.0, b=1.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:25:31.532123]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ueq
+case      : equal
+input     : a=1.0, b=1.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:25:36.087358]
+dtype     : <class 'jax.numpy.float32'>
+predicate : une
+case      : equal
+input     : a=1.0, b=1.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:25:39.962388]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ult
+case      : equal
+input     : a=1.0, b=1.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:25:43.664391]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ule
+case      : equal
+input     : a=1.0, b=1.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:25:47.369998]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ugt
+case      : equal
+input     : a=1.0, b=1.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:25:51.077491]
+dtype     : <class 'jax.numpy.float32'>
+predicate : uge
+case      : equal
+input     : a=1.0, b=1.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:25:54.515149]
+dtype     : <class 'jax.numpy.float32'>
+predicate : oeq
+case      : less
+input     : a=1.0, b=2.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:25:57.945099]
+dtype     : <class 'jax.numpy.float32'>
+predicate : one
+case      : less
+input     : a=1.0, b=2.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:26:01.389412]
+dtype     : <class 'jax.numpy.float32'>
+predicate : olt
+case      : less
+input     : a=1.0, b=2.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:26:04.865537]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ole
+case      : less
+input     : a=1.0, b=2.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:26:08.541058]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ogt
+case      : less
+input     : a=1.0, b=2.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:26:12.727131]
+dtype     : <class 'jax.numpy.float32'>
+predicate : oge
+case      : less
+input     : a=1.0, b=2.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:26:17.276239]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ueq
+case      : less
+input     : a=1.0, b=2.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:26:21.886822]
+dtype     : <class 'jax.numpy.float32'>
+predicate : une
+case      : less
+input     : a=1.0, b=2.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:26:26.592200]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ult
+case      : less
+input     : a=1.0, b=2.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:26:31.142744]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ule
+case      : less
+input     : a=1.0, b=2.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:26:35.713391]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ugt
+case      : less
+input     : a=1.0, b=2.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:26:40.265268]
+dtype     : <class 'jax.numpy.float32'>
+predicate : uge
+case      : less
+input     : a=1.0, b=2.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:26:44.485088]
+dtype     : <class 'jax.numpy.float32'>
+predicate : oeq
+case      : signed_zero
+input     : a=-0.0, b=0.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:26:48.717229]
+dtype     : <class 'jax.numpy.float32'>
+predicate : one
+case      : signed_zero
+input     : a=-0.0, b=0.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:26:52.966106]
+dtype     : <class 'jax.numpy.float32'>
+predicate : olt
+case      : signed_zero
+input     : a=-0.0, b=0.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:26:57.189454]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ole
+case      : signed_zero
+input     : a=-0.0, b=0.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:27:01.412298]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ogt
+case      : signed_zero
+input     : a=-0.0, b=0.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:27:05.668097]
+dtype     : <class 'jax.numpy.float32'>
+predicate : oge
+case      : signed_zero
+input     : a=-0.0, b=0.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:27:10.224245]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ueq
+case      : signed_zero
+input     : a=-0.0, b=0.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:27:14.784164]
+dtype     : <class 'jax.numpy.float32'>
+predicate : une
+case      : signed_zero
+input     : a=-0.0, b=0.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:27:19.335861]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ult
+case      : signed_zero
+input     : a=-0.0, b=0.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:27:23.882975]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ule
+case      : signed_zero
+input     : a=-0.0, b=0.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:27:28.447001]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ugt
+case      : signed_zero
+input     : a=-0.0, b=0.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:27:33.007547]
+dtype     : <class 'jax.numpy.float32'>
+predicate : uge
+case      : signed_zero
+input     : a=-0.0, b=0.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:27:37.252196]
+dtype     : <class 'jax.numpy.float32'>
+predicate : oeq
+case      : finite_vs_inf
+input     : a=1.0, b=inf
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:27:41.472180]
+dtype     : <class 'jax.numpy.float32'>
+predicate : one
+case      : finite_vs_inf
+input     : a=1.0, b=inf
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:27:45.685442]
+dtype     : <class 'jax.numpy.float32'>
+predicate : olt
+case      : finite_vs_inf
+input     : a=1.0, b=inf
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:27:49.947566]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ole
+case      : finite_vs_inf
+input     : a=1.0, b=inf
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:27:54.173277]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ogt
+case      : finite_vs_inf
+input     : a=1.0, b=inf
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:27:58.395263]
+dtype     : <class 'jax.numpy.float32'>
+predicate : oge
+case      : finite_vs_inf
+input     : a=1.0, b=inf
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:28:02.964671]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ueq
+case      : finite_vs_inf
+input     : a=1.0, b=inf
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:28:07.521271]
+dtype     : <class 'jax.numpy.float32'>
+predicate : une
+case      : finite_vs_inf
+input     : a=1.0, b=inf
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:28:12.079883]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ult
+case      : finite_vs_inf
+input     : a=1.0, b=inf
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:28:16.648387]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ule
+case      : finite_vs_inf
+input     : a=1.0, b=inf
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:28:21.196582]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ugt
+case      : finite_vs_inf
+input     : a=1.0, b=inf
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:28:25.749362]
+dtype     : <class 'jax.numpy.float32'>
+predicate : uge
+case      : finite_vs_inf
+input     : a=1.0, b=inf
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:28:30.039699]
+dtype     : <class 'jax.numpy.float32'>
+predicate : oeq
+case      : ninf_vs_finite
+input     : a=-inf, b=1.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:28:34.259299]
+dtype     : <class 'jax.numpy.float32'>
+predicate : one
+case      : ninf_vs_finite
+input     : a=-inf, b=1.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:28:38.510379]
+dtype     : <class 'jax.numpy.float32'>
+predicate : olt
+case      : ninf_vs_finite
+input     : a=-inf, b=1.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:28:42.727619]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ole
+case      : ninf_vs_finite
+input     : a=-inf, b=1.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:28:46.952853]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ogt
+case      : ninf_vs_finite
+input     : a=-inf, b=1.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:28:51.181777]
+dtype     : <class 'jax.numpy.float32'>
+predicate : oge
+case      : ninf_vs_finite
+input     : a=-inf, b=1.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:28:55.715224]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ueq
+case      : ninf_vs_finite
+input     : a=-inf, b=1.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:29:00.262894]
+dtype     : <class 'jax.numpy.float32'>
+predicate : une
+case      : ninf_vs_finite
+input     : a=-inf, b=1.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:29:04.803624]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ult
+case      : ninf_vs_finite
+input     : a=-inf, b=1.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:29:09.354945]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ule
+case      : ninf_vs_finite
+input     : a=-inf, b=1.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:29:13.891178]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ugt
+case      : ninf_vs_finite
+input     : a=-inf, b=1.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:29:18.434520]
+dtype     : <class 'jax.numpy.float32'>
+predicate : uge
+case      : ninf_vs_finite
+input     : a=-inf, b=1.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:29:22.650689]
+dtype     : <class 'jax.numpy.float32'>
+predicate : oeq
+case      : nan_lhs
+input     : a=nan, b=1.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:29:26.867023]
+dtype     : <class 'jax.numpy.float32'>
+predicate : one
+case      : nan_lhs
+input     : a=nan, b=1.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:29:31.079389]
+dtype     : <class 'jax.numpy.float32'>
+predicate : olt
+case      : nan_lhs
+input     : a=nan, b=1.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:29:35.303372]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ole
+case      : nan_lhs
+input     : a=nan, b=1.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:29:39.523315]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ogt
+case      : nan_lhs
+input     : a=nan, b=1.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:29:43.727459]
+dtype     : <class 'jax.numpy.float32'>
+predicate : oge
+case      : nan_lhs
+input     : a=nan, b=1.0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:29:48.270666]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ueq
+case      : nan_lhs
+input     : a=nan, b=1.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:29:52.827437]
+dtype     : <class 'jax.numpy.float32'>
+predicate : une
+case      : nan_lhs
+input     : a=nan, b=1.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:29:57.393579]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ult
+case      : nan_lhs
+input     : a=nan, b=1.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:30:01.953515]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ule
+case      : nan_lhs
+input     : a=nan, b=1.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:30:06.491144]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ugt
+case      : nan_lhs
+input     : a=nan, b=1.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:30:11.047342]
+dtype     : <class 'jax.numpy.float32'>
+predicate : uge
+case      : nan_lhs
+input     : a=nan, b=1.0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:30:15.267376]
+dtype     : <class 'jax.numpy.float32'>
+predicate : oeq
+case      : nan_rhs
+input     : a=1.0, b=nan
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:30:19.495946]
+dtype     : <class 'jax.numpy.float32'>
+predicate : one
+case      : nan_rhs
+input     : a=1.0, b=nan
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:30:23.719461]
+dtype     : <class 'jax.numpy.float32'>
+predicate : olt
+case      : nan_rhs
+input     : a=1.0, b=nan
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:30:27.936816]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ole
+case      : nan_rhs
+input     : a=1.0, b=nan
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:30:32.144046]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ogt
+case      : nan_rhs
+input     : a=1.0, b=nan
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:30:36.375524]
+dtype     : <class 'jax.numpy.float32'>
+predicate : oge
+case      : nan_rhs
+input     : a=1.0, b=nan
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:30:40.927267]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ueq
+case      : nan_rhs
+input     : a=1.0, b=nan
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:30:45.464814]
+dtype     : <class 'jax.numpy.float32'>
+predicate : une
+case      : nan_rhs
+input     : a=1.0, b=nan
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:30:50.002949]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ult
+case      : nan_rhs
+input     : a=1.0, b=nan
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:30:54.547607]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ule
+case      : nan_rhs
+input     : a=1.0, b=nan
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:30:59.088695]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ugt
+case      : nan_rhs
+input     : a=1.0, b=nan
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:31:03.634665]
+dtype     : <class 'jax.numpy.float32'>
+predicate : uge
+case      : nan_rhs
+input     : a=1.0, b=nan
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:31:07.852261]
+dtype     : <class 'jax.numpy.float32'>
+predicate : oeq
+case      : nan_nan
+input     : a=nan, b=nan
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:31:12.092020]
+dtype     : <class 'jax.numpy.float32'>
+predicate : one
+case      : nan_nan
+input     : a=nan, b=nan
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:31:16.313330]
+dtype     : <class 'jax.numpy.float32'>
+predicate : olt
+case      : nan_nan
+input     : a=nan, b=nan
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:31:20.529823]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ole
+case      : nan_nan
+input     : a=nan, b=nan
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:31:24.735188]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ogt
+case      : nan_nan
+input     : a=nan, b=nan
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:31:28.952786]
+dtype     : <class 'jax.numpy.float32'>
+predicate : oge
+case      : nan_nan
+input     : a=nan, b=nan
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-23 09:31:33.499459]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ueq
+case      : nan_nan
+input     : a=nan, b=nan
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:31:38.047395]
+dtype     : <class 'jax.numpy.float32'>
+predicate : une
+case      : nan_nan
+input     : a=nan, b=nan
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:31:42.586474]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ult
+case      : nan_nan
+input     : a=nan, b=nan
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:31:47.094606]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ule
+case      : nan_nan
+input     : a=nan, b=nan
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:31:51.642595]
+dtype     : <class 'jax.numpy.float32'>
+predicate : ugt
+case      : nan_nan
+input     : a=nan, b=nan
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-23 09:31:56.198491]
+dtype     : <class 'jax.numpy.float32'>
+predicate : uge
+case      : nan_nan
+input     : a=nan, b=nan
+CPU       : True
+TPU       : True
+------------------------------------------------------------

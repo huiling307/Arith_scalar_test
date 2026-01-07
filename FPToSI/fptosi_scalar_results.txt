@@ -1,0 +1,240 @@
+[2025-12-23 03:11:30.439096]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : zero
+input : a=0.0
+CPU   : 0
+TPU   : 0
+------------------------------------------------------------
+[2025-12-23 03:11:30.444486]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : minus_zero
+input : a=-0.0
+CPU   : 0
+TPU   : 0
+------------------------------------------------------------
+[2025-12-23 03:11:30.449597]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : one
+input : a=1.0
+CPU   : 1
+TPU   : 1
+------------------------------------------------------------
+[2025-12-23 03:11:30.454894]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : minus_one
+input : a=-1.0
+CPU   : -1
+TPU   : -1
+------------------------------------------------------------
+[2025-12-23 03:11:30.460064]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : pos_fraction_trunc
+input : a=1.899999976158142
+CPU   : 1
+TPU   : 1
+------------------------------------------------------------
+[2025-12-23 03:11:30.465324]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : neg_fraction_trunc
+input : a=-1.899999976158142
+CPU   : -1
+TPU   : -1
+------------------------------------------------------------
+[2025-12-23 03:11:30.470740]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : small_pos_fraction
+input : a=0.8999999761581421
+CPU   : 0
+TPU   : 0
+------------------------------------------------------------
+[2025-12-23 03:11:30.476171]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : small_neg_fraction
+input : a=-0.8999999761581421
+CPU   : 0
+TPU   : 0
+------------------------------------------------------------
+[2025-12-23 03:11:30.482104]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : int32_max_exact
+input : a=2147483648.0
+CPU   : 2147483647
+TPU   : 2147483647
+------------------------------------------------------------
+[2025-12-23 03:11:30.487669]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : int32_min_exact
+input : a=-2147483648.0
+CPU   : -2147483648
+TPU   : -2147483648
+------------------------------------------------------------
+[2025-12-23 03:11:30.493318]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : nan
+input : a=nan
+CPU   : 0
+TPU   : 0
+------------------------------------------------------------
+[2025-12-23 03:11:30.498886]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : pos_inf
+input : a=inf
+CPU   : 2147483647
+TPU   : 2147483647
+------------------------------------------------------------
+[2025-12-23 03:11:30.504516]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : neg_inf
+input : a=-inf
+CPU   : -2147483648
+TPU   : -2147483648
+------------------------------------------------------------
+[2025-12-23 03:11:30.510113]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : overflow_pos
+input : a=1.0000000150474662e+30
+CPU   : 2147483647
+TPU   : 2147483647
+------------------------------------------------------------
+[2025-12-23 03:11:30.515755]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : overflow_neg
+input : a=-1.0000000150474662e+30
+CPU   : -2147483648
+TPU   : -2147483648
+------------------------------------------------------------
+[2026-01-05 03:28:32.348451]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : zero
+input : a=0.0
+CPU   : 0
+TPU   : 0
+------------------------------------------------------------
+[2026-01-05 03:28:32.353264]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : minus_zero
+input : a=-0.0
+CPU   : 0
+TPU   : 0
+------------------------------------------------------------
+[2026-01-05 03:28:32.358272]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : one
+input : a=1.0
+CPU   : 1
+TPU   : 1
+------------------------------------------------------------
+[2026-01-05 03:28:32.363196]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : minus_one
+input : a=-1.0
+CPU   : -1
+TPU   : -1
+------------------------------------------------------------
+[2026-01-05 03:28:32.368132]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : pos_fraction_trunc
+input : a=1.899999976158142
+CPU   : 1
+TPU   : 1
+------------------------------------------------------------
+[2026-01-05 03:28:32.373072]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : neg_fraction_trunc
+input : a=-1.899999976158142
+CPU   : -1
+TPU   : -1
+------------------------------------------------------------
+[2026-01-05 03:28:32.377982]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : small_pos_fraction
+input : a=0.8999999761581421
+CPU   : 0
+TPU   : 0
+------------------------------------------------------------
+[2026-01-05 03:28:32.383044]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : small_neg_fraction
+input : a=-0.8999999761581421
+CPU   : 0
+TPU   : 0
+------------------------------------------------------------
+[2026-01-05 03:28:32.387997]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : int32_max_exact
+input : a=2147483648.0
+CPU   : 2147483647
+TPU   : 2147483647
+------------------------------------------------------------
+[2026-01-05 03:28:32.392834]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : int32_min_exact
+input : a=-2147483648.0
+CPU   : -2147483648
+TPU   : -2147483648
+------------------------------------------------------------
+[2026-01-05 03:28:32.398153]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : nan
+input : a=nan
+CPU   : 0
+TPU   : 0
+------------------------------------------------------------
+[2026-01-05 03:28:32.403281]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : pos_inf
+input : a=inf
+CPU   : 2147483647
+TPU   : 2147483647
+------------------------------------------------------------
+[2026-01-05 03:28:32.408574]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : neg_inf
+input : a=-inf
+CPU   : -2147483648
+TPU   : -2147483648
+------------------------------------------------------------
+[2026-01-05 03:28:32.414071]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : overflow_pos
+input : a=1.0000000150474662e+30
+CPU   : 2147483647
+TPU   : 2147483647
+------------------------------------------------------------
+[2026-01-05 03:28:32.419685]
+cast  : fptosi
+dtype : <class 'jax.numpy.int32'>
+case  : overflow_neg
+input : a=-1.0000000150474662e+30
+CPU   : -2147483648
+TPU   : -2147483648
+------------------------------------------------------------

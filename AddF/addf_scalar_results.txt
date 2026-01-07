@@ -1,0 +1,91 @@
+[2026-01-06 05:35:58.585759]
+dtype : <class 'jax.numpy.float32'>
+case  : normal_add
+input : a=1.0, b=2.0
+CPU   : 3.0
+TPU   : 3.0
+------------------------------------------------------------
+[2026-01-06 05:35:58.591107]
+dtype : <class 'jax.numpy.float32'>
+case  : mixed_sign
+input : a=-1.5, b=3.25
+CPU   : 1.75
+TPU   : 1.75
+------------------------------------------------------------
+[2026-01-06 05:35:58.596919]
+dtype : <class 'jax.numpy.float32'>
+case  : zero_plus_zero
+input : a=0.0, b=0.0
+CPU   : 0.0
+TPU   : 0.0
+------------------------------------------------------------
+[2026-01-06 05:35:58.602601]
+dtype : <class 'jax.numpy.float32'>
+case  : negzero_plus_zero
+input : a=-0.0, b=0.0
+CPU   : 0.0
+TPU   : 0.0
+------------------------------------------------------------
+[2026-01-06 05:35:58.608262]
+dtype : <class 'jax.numpy.float32'>
+case  : negzero_plus_negzero
+input : a=-0.0, b=-0.0
+CPU   : -0.0
+TPU   : -0.0
+------------------------------------------------------------
+[2026-01-06 05:35:58.613766]
+dtype : <class 'jax.numpy.float32'>
+case  : inf_plus_finite
+input : a=inf, b=1.0
+CPU   : inf
+TPU   : inf
+------------------------------------------------------------
+[2026-01-06 05:35:58.687971]
+dtype : <class 'jax.numpy.float32'>
+case  : neg_inf_plus_finite
+input : a=-inf, b=-1.0
+CPU   : -inf
+TPU   : -inf
+------------------------------------------------------------
+[2026-01-06 05:35:58.694519]
+dtype : <class 'jax.numpy.float32'>
+case  : inf_plus_neg_inf
+input : a=inf, b=-inf
+CPU   : nan
+TPU   : nan
+------------------------------------------------------------
+[2026-01-06 05:35:58.700790]
+dtype : <class 'jax.numpy.float32'>
+case  : nan_plus_finite
+input : a=nan, b=1.0
+CPU   : nan
+TPU   : nan
+------------------------------------------------------------
+[2026-01-06 05:35:58.706699]
+dtype : <class 'jax.numpy.float32'>
+case  : finite_plus_nan
+input : a=1.0, b=nan
+CPU   : nan
+TPU   : nan
+------------------------------------------------------------
+[2026-01-06 05:35:58.712513]
+dtype : <class 'jax.numpy.float32'>
+case  : nan_plus_nan
+input : a=nan, b=nan
+CPU   : nan
+TPU   : nan
+------------------------------------------------------------
+[2026-01-06 05:35:58.718554]
+dtype : <class 'jax.numpy.float32'>
+case  : overflow_to_inf
+input : a=3.4028234663852886e+38, b=3.4028234663852886e+38
+CPU   : inf
+TPU   : inf
+------------------------------------------------------------
+[2026-01-06 05:35:58.724832]
+dtype : <class 'jax.numpy.float32'>
+case  : subnormal_add
+input : a=1.401298464324817e-45, b=1.401298464324817e-45
+CPU   : 0.0
+TPU   : 0.0
+------------------------------------------------------------

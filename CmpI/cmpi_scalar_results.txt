@@ -1,0 +1,560 @@
+[2025-12-24 02:10:15.750140]
+dtype     : <class 'jax.numpy.int32'>
+predicate : eq
+case      : zero_eq
+input     : a=0, b=0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:10:20.208715]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ne
+case      : zero_eq
+input     : a=0, b=0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:10:24.636870]
+dtype     : <class 'jax.numpy.int32'>
+predicate : slt
+case      : zero_eq
+input     : a=0, b=0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:10:29.097125]
+dtype     : <class 'jax.numpy.int32'>
+predicate : sle
+case      : zero_eq
+input     : a=0, b=0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:10:33.385856]
+dtype     : <class 'jax.numpy.int32'>
+predicate : sgt
+case      : zero_eq
+input     : a=0, b=0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:10:37.579509]
+dtype     : <class 'jax.numpy.int32'>
+predicate : sge
+case      : zero_eq
+input     : a=0, b=0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:10:41.796880]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ult
+case      : zero_eq
+input     : a=0, b=0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:10:45.987240]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ule
+case      : zero_eq
+input     : a=0, b=0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:10:50.190851]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ugt
+case      : zero_eq
+input     : a=0, b=0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:10:54.402667]
+dtype     : <class 'jax.numpy.int32'>
+predicate : uge
+case      : zero_eq
+input     : a=0, b=0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:10:58.601979]
+dtype     : <class 'jax.numpy.int32'>
+predicate : eq
+case      : one_vs_two
+input     : a=1, b=2
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:11:02.789314]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ne
+case      : one_vs_two
+input     : a=1, b=2
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:11:06.982943]
+dtype     : <class 'jax.numpy.int32'>
+predicate : slt
+case      : one_vs_two
+input     : a=1, b=2
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:11:11.180509]
+dtype     : <class 'jax.numpy.int32'>
+predicate : sle
+case      : one_vs_two
+input     : a=1, b=2
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:11:15.371011]
+dtype     : <class 'jax.numpy.int32'>
+predicate : sgt
+case      : one_vs_two
+input     : a=1, b=2
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:11:19.560819]
+dtype     : <class 'jax.numpy.int32'>
+predicate : sge
+case      : one_vs_two
+input     : a=1, b=2
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:11:23.818964]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ult
+case      : one_vs_two
+input     : a=1, b=2
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:11:28.059611]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ule
+case      : one_vs_two
+input     : a=1, b=2
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:11:32.270960]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ugt
+case      : one_vs_two
+input     : a=1, b=2
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:11:36.496275]
+dtype     : <class 'jax.numpy.int32'>
+predicate : uge
+case      : one_vs_two
+input     : a=1, b=2
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:11:40.699302]
+dtype     : <class 'jax.numpy.int32'>
+predicate : eq
+case      : neg_vs_pos
+input     : a=-1, b=1
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:11:44.885580]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ne
+case      : neg_vs_pos
+input     : a=-1, b=1
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:11:49.281312]
+dtype     : <class 'jax.numpy.int32'>
+predicate : slt
+case      : neg_vs_pos
+input     : a=-1, b=1
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:11:53.479406]
+dtype     : <class 'jax.numpy.int32'>
+predicate : sle
+case      : neg_vs_pos
+input     : a=-1, b=1
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:11:57.667656]
+dtype     : <class 'jax.numpy.int32'>
+predicate : sgt
+case      : neg_vs_pos
+input     : a=-1, b=1
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:12:01.863137]
+dtype     : <class 'jax.numpy.int32'>
+predicate : sge
+case      : neg_vs_pos
+input     : a=-1, b=1
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:12:06.077775]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ult
+case      : neg_vs_pos
+input     : a=-1, b=1
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:12:10.248694]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ule
+case      : neg_vs_pos
+input     : a=-1, b=1
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:12:14.463660]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ugt
+case      : neg_vs_pos
+input     : a=-1, b=1
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:12:18.683195]
+dtype     : <class 'jax.numpy.int32'>
+predicate : uge
+case      : neg_vs_pos
+input     : a=-1, b=1
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:12:22.880649]
+dtype     : <class 'jax.numpy.int32'>
+predicate : eq
+case      : minus_one_vs_zero
+input     : a=-1, b=0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:12:27.077311]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ne
+case      : minus_one_vs_zero
+input     : a=-1, b=0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:12:31.265099]
+dtype     : <class 'jax.numpy.int32'>
+predicate : slt
+case      : minus_one_vs_zero
+input     : a=-1, b=0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:12:35.460354]
+dtype     : <class 'jax.numpy.int32'>
+predicate : sle
+case      : minus_one_vs_zero
+input     : a=-1, b=0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:12:39.665132]
+dtype     : <class 'jax.numpy.int32'>
+predicate : sgt
+case      : minus_one_vs_zero
+input     : a=-1, b=0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:12:43.882257]
+dtype     : <class 'jax.numpy.int32'>
+predicate : sge
+case      : minus_one_vs_zero
+input     : a=-1, b=0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:12:48.099131]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ult
+case      : minus_one_vs_zero
+input     : a=-1, b=0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:12:52.324356]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ule
+case      : minus_one_vs_zero
+input     : a=-1, b=0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:12:56.149032]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ugt
+case      : minus_one_vs_zero
+input     : a=-1, b=0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:12:59.601724]
+dtype     : <class 'jax.numpy.int32'>
+predicate : uge
+case      : minus_one_vs_zero
+input     : a=-1, b=0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:13:03.048807]
+dtype     : <class 'jax.numpy.int32'>
+predicate : eq
+case      : neg_vs_neg
+input     : a=-1, b=-2
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:13:06.480490]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ne
+case      : neg_vs_neg
+input     : a=-1, b=-2
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:13:09.889251]
+dtype     : <class 'jax.numpy.int32'>
+predicate : slt
+case      : neg_vs_neg
+input     : a=-1, b=-2
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:13:13.256014]
+dtype     : <class 'jax.numpy.int32'>
+predicate : sle
+case      : neg_vs_neg
+input     : a=-1, b=-2
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:13:16.690278]
+dtype     : <class 'jax.numpy.int32'>
+predicate : sgt
+case      : neg_vs_neg
+input     : a=-1, b=-2
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:13:20.128380]
+dtype     : <class 'jax.numpy.int32'>
+predicate : sge
+case      : neg_vs_neg
+input     : a=-1, b=-2
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:13:23.576664]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ult
+case      : neg_vs_neg
+input     : a=-1, b=-2
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:13:27.008726]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ule
+case      : neg_vs_neg
+input     : a=-1, b=-2
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:13:30.460071]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ugt
+case      : neg_vs_neg
+input     : a=-1, b=-2
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:13:33.910479]
+dtype     : <class 'jax.numpy.int32'>
+predicate : uge
+case      : neg_vs_neg
+input     : a=-1, b=-2
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:13:37.339322]
+dtype     : <class 'jax.numpy.int32'>
+predicate : eq
+case      : sign_bit_vs_zero
+input     : a=-2147483648, b=0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:13:40.751096]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ne
+case      : sign_bit_vs_zero
+input     : a=-2147483648, b=0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:13:44.184409]
+dtype     : <class 'jax.numpy.int32'>
+predicate : slt
+case      : sign_bit_vs_zero
+input     : a=-2147483648, b=0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:13:47.618016]
+dtype     : <class 'jax.numpy.int32'>
+predicate : sle
+case      : sign_bit_vs_zero
+input     : a=-2147483648, b=0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:13:51.018028]
+dtype     : <class 'jax.numpy.int32'>
+predicate : sgt
+case      : sign_bit_vs_zero
+input     : a=-2147483648, b=0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:13:54.447505]
+dtype     : <class 'jax.numpy.int32'>
+predicate : sge
+case      : sign_bit_vs_zero
+input     : a=-2147483648, b=0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:13:57.887879]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ult
+case      : sign_bit_vs_zero
+input     : a=-2147483648, b=0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:14:01.337242]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ule
+case      : sign_bit_vs_zero
+input     : a=-2147483648, b=0
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:14:04.763556]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ugt
+case      : sign_bit_vs_zero
+input     : a=-2147483648, b=0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:14:08.195806]
+dtype     : <class 'jax.numpy.int32'>
+predicate : uge
+case      : sign_bit_vs_zero
+input     : a=-2147483648, b=0
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:14:11.609515]
+dtype     : <class 'jax.numpy.int32'>
+predicate : eq
+case      : all_ones_vs_one
+input     : a=-1, b=1
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:14:15.029644]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ne
+case      : all_ones_vs_one
+input     : a=-1, b=1
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:14:18.463339]
+dtype     : <class 'jax.numpy.int32'>
+predicate : slt
+case      : all_ones_vs_one
+input     : a=-1, b=1
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:14:21.878469]
+dtype     : <class 'jax.numpy.int32'>
+predicate : sle
+case      : all_ones_vs_one
+input     : a=-1, b=1
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:14:25.281691]
+dtype     : <class 'jax.numpy.int32'>
+predicate : sgt
+case      : all_ones_vs_one
+input     : a=-1, b=1
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:14:28.939989]
+dtype     : <class 'jax.numpy.int32'>
+predicate : sge
+case      : all_ones_vs_one
+input     : a=-1, b=1
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:14:33.145783]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ult
+case      : all_ones_vs_one
+input     : a=-1, b=1
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:14:37.374662]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ule
+case      : all_ones_vs_one
+input     : a=-1, b=1
+CPU       : False
+TPU       : False
+------------------------------------------------------------
+[2025-12-24 02:14:41.601104]
+dtype     : <class 'jax.numpy.int32'>
+predicate : ugt
+case      : all_ones_vs_one
+input     : a=-1, b=1
+CPU       : True
+TPU       : True
+------------------------------------------------------------
+[2025-12-24 02:14:45.834902]
+dtype     : <class 'jax.numpy.int32'>
+predicate : uge
+case      : all_ones_vs_one
+input     : a=-1, b=1
+CPU       : True
+TPU       : True
+------------------------------------------------------------

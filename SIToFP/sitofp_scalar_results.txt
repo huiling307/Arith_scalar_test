@@ -1,0 +1,208 @@
+[2025-12-24 01:29:23.641111]
+from  : <class 'jax.numpy.int32'>
+to    : <class 'jax.numpy.float32'>
+case  : zero
+input : a=0
+CPU   : 0.0
+TPU   : 0.0
+------------------------------------------------------------
+[2025-12-24 01:29:23.646085]
+from  : <class 'jax.numpy.int32'>
+to    : <class 'jax.numpy.float32'>
+case  : one
+input : a=1
+CPU   : 1.0
+TPU   : 1.0
+------------------------------------------------------------
+[2025-12-24 01:29:23.650219]
+from  : <class 'jax.numpy.int32'>
+to    : <class 'jax.numpy.float32'>
+case  : minus_one
+input : a=-1
+CPU   : -1.0
+TPU   : -1.0
+------------------------------------------------------------
+[2025-12-24 01:29:23.654751]
+from  : <class 'jax.numpy.int32'>
+to    : <class 'jax.numpy.float32'>
+case  : two
+input : a=2
+CPU   : 2.0
+TPU   : 2.0
+------------------------------------------------------------
+[2025-12-24 01:29:23.659224]
+from  : <class 'jax.numpy.int32'>
+to    : <class 'jax.numpy.float32'>
+case  : minus_two
+input : a=-2
+CPU   : -2.0
+TPU   : -2.0
+------------------------------------------------------------
+[2025-12-24 01:29:23.664095]
+from  : <class 'jax.numpy.int32'>
+to    : <class 'jax.numpy.float32'>
+case  : positive_small
+input : a=123
+CPU   : 123.0
+TPU   : 123.0
+------------------------------------------------------------
+[2025-12-24 01:29:23.668791]
+from  : <class 'jax.numpy.int32'>
+to    : <class 'jax.numpy.float32'>
+case  : negative_small
+input : a=-123
+CPU   : -123.0
+TPU   : -123.0
+------------------------------------------------------------
+[2025-12-24 01:29:23.673489]
+from  : <class 'jax.numpy.int32'>
+to    : <class 'jax.numpy.float32'>
+case  : exact_mantissa_limit
+input : a=16777216
+CPU   : 16777216.0
+TPU   : 16777216.0
+------------------------------------------------------------
+[2025-12-24 01:29:23.678861]
+from  : <class 'jax.numpy.int32'>
+to    : <class 'jax.numpy.float32'>
+case  : exact_mantissa_limit_negative
+input : a=-16777216
+CPU   : -16777216.0
+TPU   : -16777216.0
+------------------------------------------------------------
+[2025-12-24 01:29:23.687017]
+from  : <class 'jax.numpy.int32'>
+to    : <class 'jax.numpy.float32'>
+case  : rounding_positive
+input : a=16777217
+CPU   : 16777216.0
+TPU   : 16777216.0
+------------------------------------------------------------
+[2025-12-24 01:29:23.692441]
+from  : <class 'jax.numpy.int32'>
+to    : <class 'jax.numpy.float32'>
+case  : rounding_negative
+input : a=-16777217
+CPU   : -16777216.0
+TPU   : -16777216.0
+------------------------------------------------------------
+[2025-12-24 01:29:23.697626]
+from  : <class 'jax.numpy.int32'>
+to    : <class 'jax.numpy.float32'>
+case  : int32_max
+input : a=2147483647
+CPU   : 2147483648.0
+TPU   : 2147483648.0
+------------------------------------------------------------
+[2025-12-24 01:29:23.702776]
+from  : <class 'jax.numpy.int32'>
+to    : <class 'jax.numpy.float32'>
+case  : int32_min
+input : a=-2147483648
+CPU   : -2147483648.0
+TPU   : -2147483648.0
+------------------------------------------------------------
+[2026-01-04 09:25:51.992931]
+from  : <class 'jax.numpy.int32'>
+to    : <class 'jax.numpy.float32'>
+case  : zero
+input : a=0
+CPU   : 0.0
+TPU   : 0.0
+------------------------------------------------------------
+[2026-01-04 09:25:51.997540]
+from  : <class 'jax.numpy.int32'>
+to    : <class 'jax.numpy.float32'>
+case  : one
+input : a=1
+CPU   : 1.0
+TPU   : 1.0
+------------------------------------------------------------
+[2026-01-04 09:25:52.001909]
+from  : <class 'jax.numpy.int32'>
+to    : <class 'jax.numpy.float32'>
+case  : minus_one
+input : a=-1
+CPU   : -1.0
+TPU   : -1.0
+------------------------------------------------------------
+[2026-01-04 09:25:52.006368]
+from  : <class 'jax.numpy.int32'>
+to    : <class 'jax.numpy.float32'>
+case  : two
+input : a=2
+CPU   : 2.0
+TPU   : 2.0
+------------------------------------------------------------
+[2026-01-04 09:25:52.009893]
+from  : <class 'jax.numpy.int32'>
+to    : <class 'jax.numpy.float32'>
+case  : minus_two
+input : a=-2
+CPU   : -2.0
+TPU   : -2.0
+------------------------------------------------------------
+[2026-01-04 09:25:52.012592]
+from  : <class 'jax.numpy.int32'>
+to    : <class 'jax.numpy.float32'>
+case  : positive_small
+input : a=123
+CPU   : 123.0
+TPU   : 123.0
+------------------------------------------------------------
+[2026-01-04 09:25:52.015587]
+from  : <class 'jax.numpy.int32'>
+to    : <class 'jax.numpy.float32'>
+case  : negative_small
+input : a=-123
+CPU   : -123.0
+TPU   : -123.0
+------------------------------------------------------------
+[2026-01-04 09:25:52.018707]
+from  : <class 'jax.numpy.int32'>
+to    : <class 'jax.numpy.float32'>
+case  : exact_mantissa_limit
+input : a=16777216
+CPU   : 16777216.0
+TPU   : 16777216.0
+------------------------------------------------------------
+[2026-01-04 09:25:52.022275]
+from  : <class 'jax.numpy.int32'>
+to    : <class 'jax.numpy.float32'>
+case  : exact_mantissa_limit_negative
+input : a=-16777216
+CPU   : -16777216.0
+TPU   : -16777216.0
+------------------------------------------------------------
+[2026-01-04 09:25:52.025512]
+from  : <class 'jax.numpy.int32'>
+to    : <class 'jax.numpy.float32'>
+case  : rounding_positive
+input : a=16777217
+CPU   : 16777216.0
+TPU   : 16777216.0
+------------------------------------------------------------
+[2026-01-04 09:25:52.028778]
+from  : <class 'jax.numpy.int32'>
+to    : <class 'jax.numpy.float32'>
+case  : rounding_negative
+input : a=-16777217
+CPU   : -16777216.0
+TPU   : -16777216.0
+------------------------------------------------------------
+[2026-01-04 09:25:52.032520]
+from  : <class 'jax.numpy.int32'>
+to    : <class 'jax.numpy.float32'>
+case  : int32_max
+input : a=2147483647
+CPU   : 2147483648.0
+TPU   : 2147483648.0
+------------------------------------------------------------
+[2026-01-04 09:25:52.058968]
+from  : <class 'jax.numpy.int32'>
+to    : <class 'jax.numpy.float32'>
+case  : int32_min
+input : a=-2147483648
+CPU   : -2147483648.0
+TPU   : -2147483648.0
+------------------------------------------------------------
